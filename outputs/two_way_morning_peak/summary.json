@@ -1,0 +1,30 @@
+[
+  {
+    "controller": "fixed_time",
+    "scenario": "morning_peak",
+    "intersection": "two_way",
+    "duration_seconds": 600,
+    "served_vehicles": 527,
+    "remaining_vehicles": 143,
+    "average_wait_seconds": 68.86,
+    "max_wait_seconds": 138,
+    "max_queue": 146,
+    "phase_changes": 21,
+    "throughput_per_minute": 52.7,
+    "wait_improvement_percent": 0.0
+  },
+  {
+    "controller": "expert",
+    "scenario": "morning_peak",
+    "intersection": "two_way",
+    "duration_seconds": 600,
+    "served_vehicles": 530,
+    "remaining_vehicles": 140,
+    "average_wait_seconds": 66.45,
+    "max_wait_seconds": 149,
+    "max_queue": 144,
+    "phase_changes": 20,
+    "throughput_per_minute": 53.0,
+    "wait_improvement_percent": 3.5
+  }
+]

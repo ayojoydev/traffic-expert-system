@@ -1,0 +1,3 @@
+controller,scenario,intersection,duration_seconds,served_vehicles,remaining_vehicles,average_wait_seconds,max_wait_seconds,max_queue,phase_changes,throughput_per_minute,wait_improvement_percent
+fixed_time,morning_peak,two_way,600,527,143,68.86,138,146,21,52.7,0.0
+expert,morning_peak,two_way,600,530,140,66.45,149,144,20,53.0,3.5

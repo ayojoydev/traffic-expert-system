@@ -1,0 +1,30 @@
+[
+  {
+    "controller": "fixed_time",
+    "scenario": "changing_flow",
+    "intersection": "two_way",
+    "duration_seconds": 600,
+    "served_vehicles": 385,
+    "remaining_vehicles": 0,
+    "average_wait_seconds": 33.33,
+    "max_wait_seconds": 90,
+    "max_queue": 62,
+    "phase_changes": 21,
+    "throughput_per_minute": 38.5,
+    "wait_improvement_percent": 0.0
+  },
+  {
+    "controller": "expert",
+    "scenario": "changing_flow",
+    "intersection": "two_way",
+    "duration_seconds": 600,
+    "served_vehicles": 381,
+    "remaining_vehicles": 4,
+    "average_wait_seconds": 29.94,
+    "max_wait_seconds": 78,
+    "max_queue": 57,
+    "phase_changes": 20,
+    "throughput_per_minute": 38.1,
+    "wait_improvement_percent": 10.17
+  }
+]

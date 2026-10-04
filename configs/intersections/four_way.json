@@ -1,0 +1,18 @@
+{
+  "id": "four_way",
+  "name": "Четырехсторонний перекресток",
+  "expert": {
+    "wait_limit": 40,
+    "queue_difference": 7
+  },
+  "lanes": [
+    {"id": "north_straight", "approach": "north", "service_rate": 1},
+    {"id": "south_straight", "approach": "south", "service_rate": 1},
+    {"id": "east_straight", "approach": "east", "service_rate": 1},
+    {"id": "west_straight", "approach": "west", "service_rate": 1}
+  ],
+  "phases": [
+    {"id": "NS_GREEN", "allowed_lanes": ["north_straight", "south_straight"], "min_green": 15, "max_green": 45, "yellow_duration": 3},
+    {"id": "EW_GREEN", "allowed_lanes": ["east_straight", "west_straight"], "min_green": 15, "max_green": 45, "yellow_duration": 3}
+  ]
+}

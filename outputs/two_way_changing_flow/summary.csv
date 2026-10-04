@@ -1,0 +1,3 @@
+controller,scenario,intersection,duration_seconds,served_vehicles,remaining_vehicles,average_wait_seconds,max_wait_seconds,max_queue,phase_changes,throughput_per_minute,wait_improvement_percent
+fixed_time,changing_flow,two_way,600,385,0,33.33,90,62,21,38.5,0.0
+expert,changing_flow,two_way,600,381,4,29.94,78,57,20,38.1,10.17

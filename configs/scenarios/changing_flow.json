@@ -1,0 +1,9 @@
+{
+  "id": "changing_flow",
+  "duration": 600,
+  "seed": 62,
+  "segments": [
+    {"start": 0, "end": 300, "arrivals_per_minute": {"north": 30, "south": 30, "east": 9, "west": 9}},
+    {"start": 300, "end": 600, "arrivals_per_minute": {"north": 9, "south": 9, "east": 30, "west": 30}}
+  ]
+}

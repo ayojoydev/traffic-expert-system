@@ -1,0 +1,30 @@
+[
+  {
+    "controller": "fixed_time",
+    "scenario": "balanced",
+    "intersection": "four_way",
+    "duration_seconds": 600,
+    "served_vehicles": 607,
+    "remaining_vehicles": 12,
+    "average_wait_seconds": 12.02,
+    "max_wait_seconds": 31,
+    "max_queue": 26,
+    "phase_changes": 21,
+    "throughput_per_minute": 60.7,
+    "wait_improvement_percent": 0.0
+  },
+  {
+    "controller": "expert",
+    "scenario": "balanced",
+    "intersection": "four_way",
+    "duration_seconds": 600,
+    "served_vehicles": 607,
+    "remaining_vehicles": 12,
+    "average_wait_seconds": 8.26,
+    "max_wait_seconds": 22,
+    "max_queue": 22,
+    "phase_changes": 33,
+    "throughput_per_minute": 60.7,
+    "wait_improvement_percent": 31.28
+  }
+]

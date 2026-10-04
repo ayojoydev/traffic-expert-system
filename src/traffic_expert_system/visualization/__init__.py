@@ -1,0 +1,1 @@
+"""Optional Pygame simulation view."""

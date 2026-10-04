@@ -1,0 +1,16 @@
+{
+  "id": "two_way",
+  "name": "Двухфазный перекресток",
+  "expert": {
+    "wait_limit": 75,
+    "queue_difference": 15
+  },
+  "lanes": [
+    {"id": "north_straight", "approach": "north", "service_rate": 1},
+    {"id": "south_straight", "approach": "south", "service_rate": 1}
+  ],
+  "phases": [
+    {"id": "N_GREEN", "allowed_lanes": ["north_straight"], "min_green": 25, "max_green": 30, "yellow_duration": 3},
+    {"id": "S_GREEN", "allowed_lanes": ["south_straight"], "min_green": 25, "max_green": 30, "yellow_duration": 3}
+  ]
+}
